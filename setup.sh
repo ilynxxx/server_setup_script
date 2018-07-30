@@ -2,19 +2,13 @@
 
 sudo apt-get update
 
-
 sudo apt-get install apache2 -y
-
 
 sudo apt-get install php -y
 
-
 sudo apt-get install php-curl -y
 
-
-
 sudo apt-get install php libapache2-mod-php -y
-
 
 sudo a2enmod mpm_prefork && sudo a2enmod php7.0
 
